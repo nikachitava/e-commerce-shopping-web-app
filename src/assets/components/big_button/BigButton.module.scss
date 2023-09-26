@@ -1,0 +1,12 @@
+@import "../../COLORS.scss";
+
+.big_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: $green;
+  color: $white;
+  font-size: 20.65px;
+  padding: 8px 44px;
+}
