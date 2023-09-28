@@ -1,11 +1,11 @@
-import { HeroPage } from "./assets/components/HeroPage/HeroPage";
 import { Nav } from "./assets/components/Nav/Nav";
+import { ProductsSection } from "./assets/sections/ProductsSection/ProductsSection";
 
 function App() {
   return (
     <>
       <Nav />
-      <HeroPage />
+      <ProductsSection />
     </>
   );
 }

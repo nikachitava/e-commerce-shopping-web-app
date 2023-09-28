@@ -1,0 +1,13 @@
+@import "../../COLORS.scss";
+
+.products_section {
+  text-align: center;
+  padding: 0 165px;
+}
+
+.products_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}

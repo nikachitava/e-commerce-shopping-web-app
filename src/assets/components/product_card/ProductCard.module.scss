@@ -1,0 +1,45 @@
+@import "../../COLORS.scss";
+
+.card_container {
+  position: relative;
+  background-color: #f7f8fa;
+  // background-color: orange;
+  margin-bottom: 40px;
+  padding: 0;
+  width: 255px;
+  height: 230px;
+  box-shadow: 5px 5px 20px 3px rgba(0, 0, 0, 0.256);
+
+  img {
+    width: 80%;
+    height: 210px;
+    padding: 20px;
+  }
+}
+
+.product_info {
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  padding: 10px 26px;
+}
+
+.product_title {
+  font-size: 15px;
+  text-align: left;
+  span {
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #1d293f;
+  }
+}
+
+.product_price {
+  text-align: right;
+
+  span {
+    font-weight: 500;
+    color: $green;
+  }
+}
